@@ -1,0 +1,10 @@
+public class TestaMetodo {
+	public static void main(String[] args) {
+		Conta contaDaCarla = new Conta();
+		 contaDaCarla.saldo = 100;
+		 contaDaCarla.deposita(50);
+		 System.out.println("O saldo atual é R$ " + contaDaCarla.saldo);
+		 contaDaCarla.saca(20);
+		 System.out.println("O saque atual após o saque é de R$ " + contaDaCarla.saldo);
+	}
+}

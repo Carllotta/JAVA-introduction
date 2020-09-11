@@ -1,0 +1,6 @@
+public class TestaGettESett {
+	public static void main(String[] args) {
+		Conta conta = new Conta();
+		conta.setNumero(0347);
+	}
+}
