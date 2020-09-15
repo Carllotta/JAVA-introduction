@@ -18,6 +18,7 @@ public abstract class TesteGerente {
 		boolean autenticacao = g1.autenticacao(12345);
 		
 		System.out.println(autenticacao);
+		System.out.println(g1.getBonificacao());
 
 	}
 
