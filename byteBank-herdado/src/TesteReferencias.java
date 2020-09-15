@@ -10,7 +10,7 @@ public class TesteReferencias {
 	f.setNome("Elaine");
 	f.setSalario(1500.00);
 	
-	
+	 
 	Atendente a = new Atendente();
 	a.setNome("Carlos");
 	a.setSalario(1000.00 );
