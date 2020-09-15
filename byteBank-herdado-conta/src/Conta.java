@@ -8,12 +8,12 @@ public class Conta{
 	public Conta (int agencia, int numero ) {
 		
 		Conta.total++; //total faz parte da classe Conta, e não de cada objeto criado a partir dela
-		System.out.println("O total de contas criadas é: " + total);
+		// System.out.println("O total de contas criadas é: " + total);
 		this.agencia = agencia;
 		this.numero = numero;
 		
-		System.out.println("A conta foi criada com sucesso! O número da sua agência é: " + this.agencia + ""
-				+ "-" + this.numero);
+		//System.out.println("A conta foi criada com sucesso! O número da sua agência é: " + this.agencia + ""
+				// + "-" + this.numero);
 	}
 	
 	void deposita(double valor) {
