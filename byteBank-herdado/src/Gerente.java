@@ -12,11 +12,12 @@ public class Gerente extends Funcionario {
 			return true;
 		}else {
 			return false;
-		}
+		} 
 	}
 	 
 	public double getBonificacao() {
 		
+		System.out.println("Método específico do gerente, executado!");
 		return super.getBonificacao() + super.getSalario();
 }
 	 
