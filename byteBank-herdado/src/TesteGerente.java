@@ -1,7 +1,10 @@
 
-public abstract class TesteGerente {
+public class TesteGerente {
 
 	public static void main(String[] args) {
+		
+		
+		Autenticavel referencia = new Cliente ();
 		
 		Gerente g1 = new Gerente ();
 		
@@ -15,7 +18,7 @@ public abstract class TesteGerente {
 		System.out.println(g1.getCpf());
 		System.out.println(g1.getSalario());
 		
-		boolean autenticacao = g1.autenticacao(12345);
+		boolean autenticacao = g1.autentica(12345);
 		
 		System.out.println(autenticacao);
 		System.out.println(g1.getBonificacao());
